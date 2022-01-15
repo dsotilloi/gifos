@@ -1,0 +1,45 @@
+.darkMode,
+.darkMode__results {
+  transition-duration: 0.8s;
+}
+
+.darkMode {
+  background-color: #373737;
+  color: #ffffff;
+}
+
+.darkMode__btn {
+  border-color: #ffffff;
+  color: #ffffff;
+  min-width: 140px;
+}
+
+.darkMode__input,
+.darkMode__dropdown,
+.darkMode__input::placeholder {
+  transition-duration: 0.5s;
+}
+
+.darkMode__input {
+  background-color: #212121;
+  border-color: #a5a5a5;
+  color: #ffffff;
+}
+
+.darkMode__input::placeholder {
+  color: #ffffff;
+}
+
+.darkMode__dropdown {
+  background-color: #212121;
+  border-color: grey;
+}
+
+.darkMode__dropdown li:hover {
+  color: #212121;
+}
+
+.darkMode__results {
+  background-color: #212121;
+  border: 1px solid #212121;
+}

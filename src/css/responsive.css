@@ -1,0 +1,52 @@
+@media (min-width: 768px) {
+  /* GLOBALES: */
+
+  .principal-container {
+    max-width: 60%;
+  }
+
+  /* HEADER: */
+
+  .header {
+    padding: 50px 50px 60px;
+  }
+
+  .header__hero--h1 {
+    font-size: 40px;
+  }
+
+  .header__hero--img {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .header__p {
+    font-size: 28px;
+    margin-top: 60px;
+  }
+
+  /* SEARCH: */
+
+  .search {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  /* RESULTS: */
+
+  .results__card-container {
+    padding: 30px;
+  }
+
+  .card {
+    flex-basis: calc(33.3% - 20px);
+    margin-bottom: 30px;
+  }
+
+  /* ERROR: */
+
+  .error-message {
+    padding: 50px 30px;
+    font-size: 36px;
+  }
+}
